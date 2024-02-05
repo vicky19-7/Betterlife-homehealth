@@ -1,0 +1,245 @@
+/* style guide */
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --masala: rgba(64, 62, 62, 1);
+  --granite-gray: rgba(106, 104, 104, 1);
+  --oriental-pink: rgba(206, 143, 143, 1);
+  --snuff: rgba(218, 217,2411, 1);
+  --cultured-pearl: rgba(245, 245, 245, 1);
+  --ceramic: rgba(253, 253, 249, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-s: 20px;
+  --font-size-m: 24px;
+  --font-size-l: 25px;
+  --font-size-xl: 26px;
+  --font-size-xxl: 30px;
+  --font-size-xxxl: 40px;
+  --font-size-xxxxl: 44px;
+
+  --font-family-montserrat: "Montserrat";
+}
+
+/* classes */
+
+.montserrat-medium-masala-20px {
+  color: var(--masala);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-normal-masala-24px {
+  color: var(--masala);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-medium-masala-24px {
+  color: var(--masala);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-medium-granite-gray-24px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-semi-bold-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-medium-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-medium-masala-25px {
+  color: var(--masala);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-medium-masala-25px {
+  color: var(--masala);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-medium-oriental-pink-26px {
+  color: var(--oriental-pink);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-bold-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-semi-bold-black-40px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400italic,700,600,500,400");
+
+.nav-bar-item {
+  align-items: center;
+  display: flex;
+  gap: 429px;
+  position: relative;
+  width:1769px;
+}
+
+.blhh-logo {
+  height:73px;
+  object-fit:cover;
+  position:relative;
+  width: 189.9px;
+}
+
+.navbar-sub-group {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 54px;
+  margin-right: -8.9px;
+  position: relative;
+}
+
+.emergency-call {
+  border-radius: 10px;
+  height: 102px;
+  position: relative;
+  width: 354px;
+}
+
+.icbaseline-phone {
+  height: 42px;
+  left: 24px;
+  position: absolute;
+  top: 30px;
+  width: 42px;
+}
+
+.button-content-text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  left: 73px;
+  min-height: 72px;
+  position: absolute;
+  top: 15px;
+  width: 262px; 
+}
+
+.emergency-calls {
+  color: var(--black);
+  font-family: (--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 30px;
+  white-space: nowrap;
+}
+
+.phone {
+  letter-spacing:0;
+  line-height: normal;
+  min-height: 30px;
+  white-space: nowrap;
+}
+
+.nav-menu {
+  align-items: center;
+  display: flex;
+  gap:51px;
+  position: relative;
+  width: 751px;
+}
+
+.nav-item-5 {
+  height:24px;
+  position: relative;
+}
+
+.nav-item-2{
+  width:154px;
+}
+
+home {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute; 
+  top: -1px;
+  white-space: nowrap;
+}
+
+.nav-item-4 {
+  margin-right: -9px;
+  width: 96px;
+}
+
+.nav-item {
+  height: 24px;
+  position: relative;
+  width: 66px;
+}
+
+.place {
+  color: var(--orienatl-pink);
+  font-family:  var(--font-family-montserrat);
+  font-size:  var(--font-size-s);
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.nav-item-3 {
+  width: 132px;
+}
+
+nav-item-1 {
+  width:108px;
+}

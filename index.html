@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <title>BetterLife Home Health</title>
+</head>
+<body>
+
+  <!--nav bar--> 
+<header class="header">
+    <a href="#" class="logo"><img src="./img/BLHH Logo.png" alt="BLHH Logo" /></a>
+    <div class="sub-nav">
+     <ul>
+       <li><a href="#home">HOME</a></li>
+       <li><a href="#about-us">ABOUT US</a></li>
+       <li><a href="#our-services">OUR SERVICES</a></li>
+       <li><a href="#contact-us">CONTACT US</a></li>
+       <li><a href="#careers">CAREERS</a></li>
+    </ul>
+    <div class="emergency-call">
+      <img class="ic-baseline-phone" src="./img/ic_baseline-phone.svg" alt="phone" />
+      <div class="button-content-text">
+         <div class="text-wrapper-2">EMERGENCY CALLS</div>
+         <div class="text-wrapper-3">+1-281-905-7115</div>
+      </div>
+    </div>
+  </div>
+    <div class="toggle_btn">
+    <i class="fa-solid fa-bars" id="btn"></i>
+    </div>
+    <div class="close_btn">
+      <i class="fa-solid fa-times" id="closeBtn"></i>
+  </div>
+</header>
+  <!--home--> 
+  <main id="home">
+    <div class="container">
+      <img src="./img/background-home.jpg" alt="background-image">
+    </div>
+    <div class="welcome-content">
+      <div class="welcome-text">
+        <p class="text-1">
+          Your Journey to Better Senior<br />
+          Care Begins Here
+        </p>
+        <p class="p">
+          We are your dedicated partner in Houston, Texas, committed to ensuring the well-being, comfort, and
+          dignity of your loved ones during their golden years.
+        </p>
+    </div>
+    <button class="button" onclick="openModal('modal')">GET STARTED</button>
+  </main>
+
+  <!--about us--> 
+  <div id="about-us" class="about-us">
+    <!--first section--> 
+    <div class="about-us-1">
+      <div class="left-pane"></div>
+      <div class="box">
+        <div class="about-us-content">
+          <div class="about-us-text">
+            <div class="about-us-heading">
+              <p class="betterlife-home">
+                <span class="text-wrapper">Better</span> Life Home Health is not just a healthcare provider
+              </p>
+              <img class="line" src="./img/line.svg" alt="" />
+            </div>
+            <div class="about-us-body">
+              <p class="div">
+                Welcome to BetterLife Home Health where caring is our calling. Our journey began with a heartfelt
+                commitment to seniors and their families. We recognized the need for a trusted partner in senior care – an organization that not only provides exceptional home health services but also understands the importance of preserving independence and nurturing a sense of belonging.
+              </p>
+              <div class="our-mission">
+              <div class="text-wrapper-2">Our Mission</div>
+                <p class="p">
+                  At BetterLife, we are on a dedicated mission to enhance the lives of our beloved seniors. Our unwavering commitment is to provide not just physical care but also to uplift their emotional and social well-being. We firmly believe in nourishing not only their bodies but also their spirits, ensuring a holistic and fulfilling quality of life.
+                </p>
+              </div>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <!--second section--> 
+    <div class="about-us-2">
+        <div class="div-2">
+            <div class="left-content-heading">
+                <div class="text-wrapper-5">Why Opt For Us?</div>
+                <img class="line" src="./img/line.svg" alt=""/>
+            </div>
+            <p class="text-wrapper-6">
+                We set high standards for the quality of care we provide. Our dedication to excellence is
+                unwavering, and we continuously strive to improve our services to ensure your loved one receives the
+                best possible care.
+            </p>
+        </div>
+        <div class="right-side">
+            <div class="point">
+                    <div class="overlap-group-3">
+                        <p class="text-wrapper-10">
+                            We foster a sense of community where residents and their families become a part of our
+                            extended family. We believe that meaningful connections are vital to well-being.
+                        </p>
+                    </div>
+                <div class="text-wrapper-11">Community and Connection:</div>
+            </div>
+            <div class="point-2">
+                <div class="overlap-group-wrapper">
+                    <div class="we-understand-that-wrapper">
+                        <p class="we-understand-that">
+                            We understand that every senior is unique, with distinct needs and preferences. That&#39;s why
+                            we take a personalized approach to care, tailoring our services to fit each individual.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-wrapper-9">Personalized Approach:</div>
+            </div>
+            <div class="point-3">
+                    <div class="overlap-group-3">
+                        <p class="text-wrapper-10">
+                            Our team is composed of compassionate caregivers handpicked for their dedication, empathy, and
+                            commitment to the well-being of the seniors.
+                        </p>
+                    </div>
+                <div class="text-wrapper-11">Exceptional Caregivers:</div>
+            </div>
+        </div>
+     </div>
+
+     <!--our services-->
+    <div id="our-services" class="our-services">
+        <div class="heading">
+          <img class="line-2" src="./img/Line.svg" alt=""/>
+          <div class="text-wrapper-12">Services We Provide</div>
+          <img class="line-2" src="./img/line.svg" alt=""/>
+        </div>
+        <div class="our-services-body">
+          <div class="frame-2">
+            <img class="image" src="./img/doctor-talking-with-her-elder-patient.jpg" alt=""/>
+            <div class="frame-card">
+                <div class="frame-text-group">
+                    <div class="text">
+                        <div class="pecks">
+                            <div class="div-3">
+                                <div class="item">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" alt=""/>
+                                  <div class="text-wrapper-13">24/7 Care</div>
+                                </div>
+                                <div class="item">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" alt="" />
+                                  <div class="text-wrapper-13">Nutritious Dining</div>
+                                </div>
+                            </div>
+                            <div class="right-wing">
+                                <div class="item">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" alt="" />
+                                  <div class="text-wrapper-13">Engaging Activities</div>
+                                </div>
+                                <div class="item">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" alt="" />
+                                  <div class="text-wrapper-13">Comfortable Living</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-wrapper-14"><a class="OS_links" href="#" onclick="openModal('modal')">GET STARTED</a></div>
+                    </div>
+                    <div class="body-heading">Assisted Living Services</div>
+                    <p class="body-text">
+                       Our assisted living services offer seniors a vibrant lifestyle filled with independence, while our dedicated caregivers provide the helping hand they need. We don&#39;t just assist with daily tasks; we empower residents to live life to the fullest, creating an environment where they thrive.
+                    </p>
+                </div>
+            </div>
+         </div>
+         <div class="frame-2">
+            <div class="frame-card">
+                <div class="frame-text-group">
+                    <div class="body-heading">Companionship Services</div>
+                    <p class="body-text">
+                       We believe in the power of meaningful connections. Whether it's spending quality time with residents, providing friendly visits to seniors, or offering support to family caregivers, we know that these connections are the threads that enrich lives and create a more fulfilling experience.
+                    </p>
+                    <div class="text">
+                        <div class="pecks">
+                            <div class="left-wing">
+                                <div class="item-2">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                  <div class="text-wrapper-13">Creating Memories</div>
+                                </div>
+                                <div class="item-2">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                  <div class="text-wrapper-13">Listening Ears</div>
+                                </div>
+                            </div>
+                            <div class="div-3">
+                              <div class="item-2">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                  <div class="text-wrapper-13">Transportation/Outings</div>
+                              </div>
+                              <div class="item-2">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                  <div class="text-wrapper-13">Friendly Companions</div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="text-wrapper-14"><a class="OS_links" href="#" onclick="openModal('modal')">GET STARTED</a></div>
+                    </div>
+                </div>
+            </div>
+            <img class="image" src="./img/african-social-worker-helping-senior-woman.jpg" alt="" />
+          </div>
+          <div class="frame-2">
+            <img class="image" src="./img/doctor-talking-with-her-elder-patient.jpg" />
+            <div class="frame-card">
+                <div class="frame-text-group">
+                    <div class="body-heading">Respite Care</div>
+                    <p class="body-text">
+                      We understand that caregiving can be both rewarding and demanding. That&#39;s why we offer
+                      Respite Care services to give caregivers the opportunity to recharge and take care of other
+                      responsibilities while ensuring their loved ones continue to receive the highest level of care
+                      and attention.
+                    </p>
+                    <div class="text">
+                       <div class="pecks">
+                           <div class="div-3">
+                                <div class="item">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                  <div class="text-wrapper-13">Temporary Relief</div>
+                                </div>
+                                <div class="item">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                  <div class="text-wrapper-13">Professional Care</div>
+                                </div>
+                            </div>
+                            <div class="right-wing">
+                                <div class="item">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                  <div class="text-wrapper-13">Comprehensive Support</div>
+                                </div>
+                                <div class="item">
+                                  <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                  <div class="text-wrapper-13">Medical Supervision</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-wrapper-14"><a class="OS_links" href="#" onclick="openModal('modal')">GET STARTED</a></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="frame-2">
+            <div class="frame-card">
+                <div class="frame-text-group">
+                    <div class="body-heading">Memory Care</div>
+                    <p class="body-text">
+                       Providing specialized support for individuals living with Alzheimer's, dementia, and memory-related conditions. Our compassionate team, secure environment, and tailored care plans ensure a safe and enriching experience for residents and peace of mind for families.
+                    </p>
+                    <div class="text">
+                        <div class="pecks">
+                            <div class="div-3_2">
+                                <div class="item-2">
+                                   <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                   <div class="text-wrapper-13">Safe Environment</div>
+                                </div>
+                                <div class="item-2">
+                                   <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                   <div class="text-wrapper-13">Medication </div>
+                                </div>
+                            </div>
+                            <div class="left-wing">
+                                <div class="item-2">
+                                   <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                   <div class="text-wrapper-13">Therapeutic Programs</div>
+                                </div>
+                                <div class="item-2">
+                                   <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                                   <div class="text-wrapper-13">Cognitive Stimulation</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-wrapper-14" id=""><a class="OS_links" href="#" onclick="openModal('modal')">GET STARTED</a></div>
+                    </div>
+                </div>
+            </div>
+            <img class="image" src="./img/doctor-talking-with-her-elder-patient.jpg" />
+          </div>     
+        </div>
+  </div>
+  <div class="other-services">
+      <div class="other-services-main">
+          <div class="text-3">Aside our specifics</div>
+          <div class="heading">
+              <img class="line-2" src="./img/Line.svg" />
+              <div class="text-4">We Also Offer</div>
+              <img class="line-2" src="./img/Line.svg" />
+          </div>
+      </div>
+      <div class="other-services-body">
+          <div class="frame-3">
+              <div class="wings">
+                  <div class="item-2">
+                      <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                      <div class="text-wrapper-40">Skilled Nursing Care</div>
+                  </div>
+                  <div class="item-2">
+                      <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                      <div class="text-wrapper-40">Medication Administration</div>
+                  </div>
+                  <div class="item-2">
+                      <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                      <div class="text-wrapper-40">Wound Care and Dressing Changes</div>
+                  </div>
+                  <div class="item-2">
+                      <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                      <div class="text-wrapper-40">Symptom Management</div>
+                  </div>
+              </div>
+              <div class="wings">
+                  <div class="item-2">
+                      <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                      <div class="text-wrapper-40">Hospice or End-of-Life Care</div>
+                  </div>
+                  <div class="item-2">
+                      <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                      <div class="text-wrapper-40">Pain Management</div>
+                  </div>
+                  <div class="item-2">
+                      <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                      <div class="text-wrapper-40">Family and Caregiver Support</div>
+                  </div>
+                  <div class="item-2">
+                      <img class="icon-park-solid" src="./img/icon-park-solid_check-one.png" />
+                      <div class="text-wrapper-40">Assessment and Monitoring</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+<!--contact-us-->
+<div id="contact-us" class="contact-us">
+  <div class="contact-us-content">
+      <p class="text-5">
+          Not sure which service to opt for? No problem. Speak with us, and we will help you determine which one
+          fits your specific needs and preferences, tailoring our care to your unique requirements
+      </p>
+      <a class="button-content-wrapper" href="tel:+12819057115">
+          <div class="button-content">
+              <img class="ic-baseline-phone" src="./img/ic_baseline-phone.svg" />
+              <div class="button-text">
+                  <div class="text-6">Call us</div>
+                  <div class="text-7">+1-281-905-7115</div>
+              </div>
+          </div>
+        </a>
+  </div>
+</div>
+
+<!--careers-->
+<div id="careers" class="careers">
+  <div class="heading">
+      <img class="line-2" src="./img/Line.svg" />
+      <div class="text-4">Join Our Team</div>
+      <img class="line-2" src="./img/Line.svg" />
+  </div>
+  <div class="career-body">
+      <div class="career-background">
+        <img class="image-2" src="./img/two-female-nurses-working-clinic-scrubs.jpg" />
+        <div class="rectangle-2"></div>
+      </div>
+      <div class="career-content">
+        <div class="career-text">
+          <p class="text-8">Let’s join hands to create a difference</p>
+          <p class="text-9">
+            We&#39;re a close-knit family dedicated to improving the lives of seniors. If you share our
+            commitment to care and compassion, we want you on our team
+          </p>
+        </div>
+        <button class="button">
+          <div class="overlap-group">EXPLORE</div>
+          </button>
+      </div>
+  </div>
+</div>
+
+<!--footer-->
+<div class="footer-scroll">
+    <div class="scroll">
+        <div class="text-wrapper-31">Scroll Up</div>
+        <img class="solar-round-double" src="./img/solar_round-double-alt-arrow-up-bold.svg" />
+    </div>
+</div>
+<footer class="footer">
+  <div class="footer-content">
+      <div class="frame-4">
+          <div class="logo">
+              <img class="BLHH-logo-2" src="./img/BLHH Logo.png" />
+              <p class="text-wrapper-32">...where caring is our calling</p>
+          </div>
+          <div class="div-3">
+              <div class="text-wrapper-33">Contact Us</div>
+              <div class="contact-us-text">
+                  <div class="text-wrapper-34">+1-281-905-7115</div>
+                  <div class="text-wrapper-35">info@betterlifehomehealth.com</div>
+              </div>
+          </div>
+          <div class="div-3">
+              <div class="text-wrapper-33">Location</div>
+              <p class="text-wrapper-36">10606 Beckfield Dr, Houston TX. 77099</p>
+          </div>
+          <div class="div-3">
+              <div class="text-wrapper-33">Handles</div>
+                <div class="social-media-icons">
+                  <img class="icons" src="./img/ic_outline-facebook.svg" />
+                  <img class="icons" src="./img/ri_whatsapp-fill.svg" />
+                  <img class="icons" src="./img/entypo-social_linkedin-with-circle.svg" />
+                  <img class="icons" src="./img/ri_instagram-fill.svg" />
+                </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <div class="footer-line"></div>
+          <div class="footer-bottom-2">
+              <p class="text-wrapper-37">© 2023 BetterLife Home Health</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<div id="modal" class="modal">
+  <div class="modal-content" id="originalModalContent">
+    <p>Welcome! We're delighted that you're considering <b>BetterLife Home Health</b> for your home care needs. Please fill out the form below, and we'll be in touch shortly.</p>
+    <form id="modalForm">
+      <!-- Your form fields go here -->
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="text" pattern="[0-9()-]+" placeholder="Phone number">
+      <input list="careType" name="careFor" id="careForInput" placeholder="Care is for">
+      <datalist id="careType">
+        <option value="Myself">
+        <option value="Someone else">
+      </datalist>
+      <input list="service-type" placeholder="Type of service needed">
+      <datalist id="service-type">
+        <option value="Assisted living">
+        <option value="Companionship">
+        <option value="Respite care">
+        <option value="Memory care">
+        <option value="Not sure">
+      </datalist>
+      <input type="text" class="yourText" placeholder="Additional comment">
+      <button type="submit">Submit</button>
+      <button type="submit" onclick="closeModal()">Close</button>
+    </form>
+  </div>
+</div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    function openModal(modalId) {
+        var modal = document.getElementById(modalId);
+        modal.style.display = "flex";
+        modal.style.justifyContent = "center"; 
+        modal.style.alignItems = "center"; 
+    }
+
+    function closeModal() {
+        var modals = document.getElementsByClassName("modal");
+        for (var i = 0; i < modals.length; i++) {
+            modals[i].style.display = "none";
+        }
+    }
+
+    window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.querySelector(".toggle_btn");
+    const headerMenu = document.querySelector(".header ul");
+    const closeBtn = document.getElementById("closeBtn");
+
+    menuButton.addEventListener("click", function () {
+        headerMenu.classList.toggle("active");
+        toggleCloseButton(); // Toggle the close button when menu opens/closes
+        toggleMenuButton();
+      });
+
+    closeBtn.addEventListener("click", function () {
+        headerMenu.classList.remove("active");
+        toggleCloseButton(); // Hide the close button when clicked
+        toggleMenuButton();
+    });
+
+    function toggleCloseButton() {
+        const closeButton = document.querySelector(".close_btn");
+        closeButton.style.display = headerMenu.classList.contains("active") ? "block" : "none";
+        closeButton.style.marginRight = "4.5%";
+    }
+
+    function toggleMenuButton() {
+        menuButton.style.display = headerMenu.classList.contains("active") ? "none" : "block";
+    }
+});
+
+  if ($('#home').length) {
+    $('li a').css('color', 'red');
+  }
+
+  const toggleBtn = document.getElementById('btn');
+  const navLinks = document.querySelector('nav ul');
+
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  // Listen for scroll events
+  window.addEventListener('scroll', function () {
+    var nav = document.querySelector('nav');
+
+    if (window.scrollY > 100) {
+      // Add a class or modify styles to change the appearance
+      nav.classList.add('scrolled');
+    } else {
+      // Remove the class or reset styles when scrolling back to the top
+      nav.classList.remove('scrolled');
+    }
+  });
+
+  // Add smooth scrolling to anchor links
+  document.querySelectorAll('a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+        // Scroll to the target section with smooth behavior
+        targetSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        });
+      }
+    });
+  });
+// Additional jQuery code can be placed here if needed
+</script>
+</html>
